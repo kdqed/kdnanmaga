@@ -1,0 +1,88 @@
+:root{
+  --l1: #f9f9f9;
+  --l2: #d6d6d6;
+  --theme: #5d8550;
+  --d1: #12110d;
+  --d2: #191812;
+  --d3: #484633;
+  --blue-l: #8bdefe;
+  --blue-d: #6bafca;
+}
+* {
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: font1;
+  src: url(/assets/mp1m.ttf);
+}
+body {
+  font-family: font1;
+  padding: 0px;
+  margin: 0px;
+  font-size: 1rem;
+  background: var(--blue-d);
+  color: var(--l1);
+  text-align: center;
+}
+h1,h2,h3,p{
+  font-weight: 200;
+}
+span.hlt{
+  background: var(--d3);
+  color: var(--l1);
+}
+
+
+header,section{
+  width: 100%;
+  text-align: center;
+  padding: 20px 5px;
+}
+header>div,section>div{
+  width: 100%;
+  display: inline-block;
+  text-align: left;
+  max-width: 640px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+footer{
+  position: fixed;
+  left: 0;
+  width: 100%;
+  bottom: 0;
+}
+footer>div{  
+  display: inline-grid;
+  grid-template-columns: 1fr auto;
+  padding: 0;
+  justify-items: start;
+  align-items: center;
+  grid-gap: 2rem;
+  width: 100%;
+  max-width: 640px;
+}
+footer img{
+  width: 15rem;
+  max-width: 20%;
+  height: auto; 
+}
+nav{
+  text-align: right;
+  padding: 0.5rem 1rem;
+}
+footer p{
+  padding: 1rem;
+  letter-spacing: 4px;
+  font-size: 125%;
+}
+nav a:hover{
+  opacity: 0.5;
+}
+nav a{
+  transition: opacity 0.2s ease-in;
+  color: var(--l1);
+  padding: 0 0.2rem;
+  margin-left: 0.5rem;
+}
