@@ -1,0 +1,162 @@
+<html>
+<head>
+  <title>kdnanmaga / Karthik D</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#12110d">
+  <meta charset="utf-8">
+  <meta name="description" content="Writes code, blogs and stories">
+  
+  <meta property="og:title" content="kdnanmaga / Karthik D" />
+  <meta property="og:url" content="https://kdnanmaga.xyz" />
+  <meta property="og:description" content="Writes code, blogs and stories">
+  <meta property="og:image" content="/assets/dp.png">
+  <meta property="og:type" content="website" />
+  
+  <meta name="twitter:card" content="app"></meta>
+  <meta property="twitter:image" content="/assets/cov.png">
+  
+  
+  <link rel="shortcut icon" type="image/png" href="/assets/dp.png"/>
+  <style>
+    :root{
+      --l1: #f9f9f9;
+      --l2: #d6d6d6;
+      --theme: #5d8550;
+      --d1: #12110d;
+      --d2: #191812;
+      --d3: #484633;
+      --blue-l: #8bdefe;
+      --blue-d: #6bafca;
+    }
+    * {
+      box-sizing: border-box;
+    }
+    @font-face {
+      font-family: font1;
+      src: url(/assets/synemono.ttf);
+    }
+    body {
+      font-family: font1;
+      padding: 0px;
+      margin: 0px;
+      font-size: 1rem;
+      background: var(--blue-l);
+      color: var(--d3);
+      text-align: center;
+    }
+    h1,h2,h3,p{
+      font-weight: 200;
+    }
+    h1{font-size: 133%;}
+    h2{font-size: 115%;}
+    span.hlt{
+      background: var(--d3);
+      color: var(--l1);
+      display: inline-block;
+      padding: 4px 16px;
+      border-radius: 4px;
+    }
+
+
+    header{
+      display: grid;
+      width: 100%;
+      text-align: center;
+      padding: 0;
+    }
+    header>div{
+      grid-area: 1 / 1 / 2 / 2;
+      width: 100%;
+      display: block;
+      text-align: left;
+      padding: 16px;
+      border-radius: 5px;
+    }
+    header>div.backdrop{
+      display: grid;
+      grid-template-rows: 135px 1fr;
+      background: var(--l1);
+      padding: 0;
+    }
+    header>div.backdrop>.b1{
+      background: var(--d2);
+      border-radius: 0 0 8px 8px;
+    }
+    footer{
+      background: var(--l1);
+    }
+    footer>div{  
+      display: inline-grid;
+      grid-template-columns: 1fr auto;
+      padding: 0;
+      justify-items: start;
+      align-items: center;
+      grid-gap: 2rem;
+      width: 100%;
+      max-width: 640px;
+    }
+    footer img{
+      width: 15rem;
+      max-width: 20%;
+      height: auto; 
+    }
+    nav{
+      text-align: right;
+      padding: 0.5rem 1rem;
+    }
+    footer p{
+      padding: 1rem;
+      letter-spacing: 4px;
+      font-size: 125%;
+    }
+    nav a:hover{
+      opacity: 0.5;
+    }
+    nav a{
+      transition: opacity 0.2s ease-in;
+      color: var(--l1);
+      padding: 0 0.2rem;
+      margin-left: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="backdrop">
+    <div class="b1"></div>
+    <div class="b2"></div>
+  </div>
+  <div style="padding-top: 32px; padding-bottom: 20vh; text-align: center;">
+    <img src="/assets/dp.png" style="height: 128px; width: auto; border-radius: 1000px;">
+    <h1>
+      Karthik D / @kdnanmaga
+    </h1>
+    <h2>
+      I make apps, games and tea
+    </h2> 
+  </div>
+</header>
+
+<main style="min-height: 500px;">
+  
+</main>
+
+<footer>
+  <div>
+    <p>@kdnanmaga</p>
+    <nav>
+      <a target="_blank" href="https://github.com/kdnanmaga" style="text-decoration: none;">
+        <img style="height: 1.25rem; width: auto;" src="/assets/github.png">
+      </a>
+      <a target="_blank" href="https://instagram.com/kdnanmaga" style="text-decoration: none;">
+        <img style="height: 1.25rem; width: auto;" src="/assets/insta.png">
+      </a>
+      <a target="_blank" href="https://twitter.com/kdnanmaga" style="text-decoration: none;">
+        <img style="height: 1.25rem; width: auto;" src="/assets/twitter.png">
+      </a>
+    </nav>
+  </div>  
+</footer>
+</body>
+</html>
