@@ -2,7 +2,6 @@
 I write code, blogs and stories
 
 ## Links
-- [DEV Community](https://dev.to/kdnanmaga)
 - [GitHub](https://github.com/kdnanmaga)
 - [Google](https://google.com/search?q=kdnanmaga)
 - [Instagram](https://www.instagram.com/kdnanmaga/)
