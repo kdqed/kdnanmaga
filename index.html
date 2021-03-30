@@ -17,22 +17,130 @@
   
   
   <link rel="shortcut icon" type="image/png" href="/assets/icon.png"/>
-  <link rel="stylesheet" type="text/css" href="/css/main.css"/>
-  
+  <style>
+    :root{
+      --l1: #f9f9f9;
+      --l2: #d6d6d6;
+      --theme: #5d8550;
+      --d1: #12110d;
+      --d2: #191812;
+      --d3: #484633;
+      --blue-l: #8bdefe;
+      --blue-d: #6bafca;
+    }
+    * {
+      box-sizing: border-box;
+    }
+    @font-face {
+      font-family: font1;
+      src: url(/assets/synemono.ttf);
+    }
+    body {
+      font-family: font1;
+      padding: 0px;
+      margin: 0px;
+      font-size: 1rem;
+      background: var(--blue-l);
+      color: var(--d3);
+      text-align: center;
+    }
+    h1,h2,h3,p{
+      font-weight: 200;
+    }
+    h1{font-size: 133%;}
+    h2{font-size: 115%;}
+    span.hlt{
+      background: var(--d3);
+      color: var(--l1);
+      display: inline-block;
+      padding: 4px 16px;
+      border-radius: 4px;
+    }
+
+
+    header{
+      display: grid;
+      width: 100%;
+      text-align: center;
+      padding: 0;
+    }
+    header>div{
+      grid-area: 1 / 1 / 2 / 2;
+      width: 100%;
+      display: block;
+      text-align: left;
+      padding: 16px;
+      border-radius: 5px;
+    }
+    header>div.backdrop{
+      display: grid;
+      grid-template-rows: 135px 1fr;
+      background: var(--l1);
+      padding: 0;
+    }
+    header>div.backdrop>.b1{
+      background: var(--d2);
+      border-radius: 0 0 8px 8px;
+    }
+    footer{
+      background: var(--l1);
+    }
+    footer>div{  
+      display: inline-grid;
+      grid-template-columns: 1fr auto;
+      padding: 0;
+      justify-items: start;
+      align-items: center;
+      grid-gap: 2rem;
+      width: 100%;
+      max-width: 640px;
+    }
+    footer img{
+      width: 15rem;
+      max-width: 20%;
+      height: auto; 
+    }
+    nav{
+      text-align: right;
+      padding: 0.5rem 1rem;
+    }
+    footer p{
+      padding: 1rem;
+      letter-spacing: 4px;
+      font-size: 125%;
+    }
+    nav a:hover{
+      opacity: 0.5;
+    }
+    nav a{
+      transition: opacity 0.2s ease-in;
+      color: var(--l1);
+      padding: 0 0.2rem;
+      margin-left: 0.5rem;
+    }
+  </style>
 </head>
 <body>
 
-<header style="background: url(/assets/back.png); background-position: center bottom;">
-  <div style="padding-top: 10vh; padding-bottom: 20vh; text-align: center;">
-    <img src="/assets/dp.png" style="height: 192px; border: 5px solid var(--d3); width: auto; border-radius: 1000px;">
+<header>
+  <div class="backdrop">
+    <div class="b1"></div>
+    <div class="b2"></div>
+  </div>
+  <div style="padding-top: 32px; padding-bottom: 20vh; text-align: center;">
+    <img src="/assets/dp.png" style="height: 128px; width: auto; border-radius: 1000px;">
     <h1>
-      <span class="hlt">Karthik D</span>
+      Karthik D / @kdnanmaga
     </h1>
     <h2>
-      <span class="hlt">I make apps, games and tea</span>
+      I make apps, games and tea
     </h2> 
   </div>
 </header>
+
+<main style="min-height: 500px;">
+  
+</main>
 
 <footer>
   <div>

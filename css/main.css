@@ -13,45 +13,57 @@
 }
 @font-face {
   font-family: font1;
-  src: url(/assets/mp1m.ttf);
+  src: url(/assets/synemono.ttf);
 }
 body {
   font-family: font1;
   padding: 0px;
   margin: 0px;
   font-size: 1rem;
-  background: var(--blue-d);
-  color: var(--l1);
+  background: var(--blue-l);
+  color: var(--d3);
   text-align: center;
 }
 h1,h2,h3,p{
   font-weight: 200;
 }
+h1{font-size: 133%;}
+h2{font-size: 115%;}
 span.hlt{
   background: var(--d3);
   color: var(--l1);
+  display: inline-block;
+  padding: 4px 16px;
+  border-radius: 4px;
 }
 
 
-header,section{
+header{
+  display: grid;
   width: 100%;
   text-align: center;
-  padding: 20px 5px;
+  padding: 0;
 }
-header>div,section>div{
+header>div{
+  grid-area: 1 / 1 / 2 / 2;
   width: 100%;
-  display: inline-block;
+  display: block;
   text-align: left;
-  max-width: 640px;
-  padding: 10px;
+  padding: 16px;
   border-radius: 5px;
 }
-
+header>div.backdrop{
+  display: grid;
+  grid-template-rows: 135px 1fr;
+  background: var(--l1);
+  padding: 0;
+}
+header>div.backdrop>.b1{
+  background: var(--d2);
+  border-radius: 0 0 8px 8px;
+}
 footer{
-  position: fixed;
-  left: 0;
-  width: 100%;
-  bottom: 0;
+  background: var(--l1);
 }
 footer>div{  
   display: inline-grid;
