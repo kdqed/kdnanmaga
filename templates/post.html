@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en" amp>
+<head>
+  <meta charset="utf-8">
+  <title>{{title}}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#020203">
+  <meta name="description" content="Posted by @kdnanmaga">
+  
+  <meta property="og:title" content="{{title}}" />
+  <meta property="og:url" content="https://kdnanmaga.xyz{{url}}" />
+  <meta property="og:description" content="Posted by @kdnanmaga">
+  <meta property="og:image" content="{{cover}}">
+  <meta property="og:type" content="website" />
+  
+  <meta name="twitter:card" content="app"></meta>
+  <meta property="twitter:image" content="{{cover}}">
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Hind&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" type="image/png" href="/assets/favicon.png"/>
+  <link rel="canonical" href="https://kdnanmaga.xyz{{url}}">
+  
+  <script async src="https://cdn.ampproject.org/v0.js"></script>
+  <style amp-custom>
+    :root{
+      --d1: #020203;
+      --d2: #080a0c;
+      --d3: #101418;
+      --t1: #09321E;
+      --t2: #0D462A;
+      --t3: #13623B;
+      --t4: #2ACB7A;
+      --t5: #38D687;
+      --l3: #74b996;
+      --l2: #E1F9ED;
+      --l1: #FFFFFF;
+    }
+    * {
+      box-sizing: border-box;
+    }
+    html {
+      scroll-behavior: smooth;
+    }
+    /*@font-face {
+      font-family: font1;
+      src: url(/assets/jost.otf);
+    }*/
+    body {
+      font-family: 'Hind', sans-serif;
+      padding: 0px;
+      margin: 0px;
+      font-size: 1.25rem;
+      background: var(--d1);
+      color: var(--l1);
+      text-align: center;
+      min-height: 100vh;
+    }
+    h1,h3,p{
+      font-weight: 200;
+      margin: 0.5rem 0;
+    }
+    h2{margin: 0.5rem;}
+    .backdrop{
+      position: fixed;
+      z-index: -1000;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: url({{cover}});
+      background-size: cover;
+      background-position: center top;
+    }
+    header{
+      display: grid;
+      grid-template-columns: auto 1fr;
+      grid-gap: 1rem;
+      padding: 1rem;
+      align-items: center;
+      justify-items: end;
+      background: -webkit-linear-gradient(bottom, rgba(0,0,0,0),rgba(0,0,0,0.9));
+    }
+    header a{
+      color: var(--l1);
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 125%;
+      font-family: 'Jost', sans-serif;
+    }
+    h1{
+      margin: 0;
+      font-family: 'Jost', sans-serif;
+      font-size: 150%;
+      font-weight: bold;
+      color: var(--l1);
+      
+    }
+    .cover .single-row{
+      padding: 2rem 1rem;
+      background: rgba(0,0,0,0.7);
+      border-radius: 8px 8px 0 0;
+    }
+    header img, header amp-img{
+      height: 2.5rem;
+      width: auto;
+    }
+    main{margin: 0;}
+    .cover{
+      min-height: 40vh;
+      display: grid;
+      align-items: end;
+      justify-items: center;
+      padding: 0;
+    }
+    .cover p{margin: 0; color: var(--t5);}
+    .opaque{
+      background: var(--l2);
+      padding: 1rem;
+      color: var(--d3);
+    }
+    .single-row{
+      display: inline-block;
+      width: 100%;
+      max-width: 720px;
+      text-align: left;
+    }
+    .single-row.title p{
+      display: grid;
+      grid-template-columns: auto auto;
+      align-items: center;
+      justify-content: start;
+      grid-gap: 0rem 1rem;
+      padding-top: 1rem;
+      font-family: 'Jost', sans-serif;
+    }
+    .single-row.title p amp-img{
+      border-radius: 100px;
+      grid-row: span 2;
+    }
+    .prefix-at::before{
+      content: "@";
+    }
+    
+    .md{
+      line-height: 200%;
+    }
+    
+    .md p{margin: 2rem 0;}
+    .md h2{
+      font-size: 110%; 
+      font-family: 'Jost', sans-serif; 
+      margin: 2rem 0; 
+      color: var(--t3);
+      border-bottom: 1px solid var(--t3);
+    }
+    .md pre{
+      margin: 2rem 0;
+      background: var(--d3); 
+      color: var(--l2); 
+      line-height: 125%;
+      padding: 1rem;
+      overflow-x: scroll;
+      width: 100%;
+    }
+    .md a{color: var(--t3);}
+    footer{
+      background: rgba(0,0,0,0.7);
+      color: var(--l1);
+      margin: 0;
+      padding: 3rem 1rem;
+      font-family: 'Jost', sans-serif;
+    }
+    footer p{
+      margin: 0;
+    }
+    footer p a{
+      text-decoration: none;
+      display: inline-block;
+      padding: 0.5rem 1rem;
+      background: var(--d3);
+      color: var(--t5);
+      border-radius: 100px;
+      margin: 1rem 0;
+      border: 2px solid var(--d2);
+    }
+    footer nav a{
+      display: inline-block;
+      text-decoration: none;
+      padding: 0.25rem 0.5rem;
+      color: var(--t5);
+    }
+  </style>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "NewsArticle",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://kdnanmaga.xyz{{url}}"
+      },
+      "headline": "{{title}}",
+      "image": [
+        "https://kdnanmaga.xyz/{{cover}}"
+      ],
+      "datePublished": "{{published_date}}",
+      "dateModified": "{{modified_date}}",
+      "author": {
+        "@type": "Person",
+        "name": "{{author}}"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "kdnanmaga",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://kdnanmaga/assets/dp.png"
+        }
+      }
+    }
+  </script>
+  <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+</head>
+<body>
+<div class="backdrop"></div>
+<header>
+  <a href="/" title="Home">
+    <amp-img src="/assets/logo.png" alt="Logo" layout="fixed" height="40" width="35"></amp-img>
+  </a>
+  <a href="/" class="prefix-at">kdnanmaga</a>
+</header>
+<main>
+  <section class="cover">
+    <div class="single-row title">
+      <h1>{{title}}</h1>
+      <p>
+        <amp-img layout="fixed" height="64" width="64" src="{{author_dp}}"></amp-img>
+        <b>{{author}}</b>  
+        <span>{{display_date}}</span>
+      </p>
+    </div>
+  </section>
+  <section class="opaque">
+    <div class="single-row md">
+      {{{rendered_md}}}
+    </div>
+  </section>
+</main>
+<footer>
+  <p>
+    © 2021 <span class="prefix-at">kdnanmaga</span> / Karthik D
+    <br>
+    <a href="mailto:krtdvn@gmail.com">Email: krtdvn@gmail.com</a>
+  </p>
+  <h3>Find me on:</h3>
+  <nav>
+    <a href="https://github.com/kdnanmaga" title="Github" class="link-icon">
+      GitHub
+    </a>
+    <a href="https://google.com/search?q=kdnanmaga" title="Search" class="link-icon">
+      Google
+    </a>
+    <a href="https://instagram.com/kdnanmaga" title="Instagram" class="link-icon">
+      Instagram
+    </a>
+    <a href="https://kdnanmaga.itch.io/" title="Itch.io" class="link-icon">
+      Itch.io
+    </a>
+    <a href="https://www.linkedin.com/in/kdnanmaga/" title="LinkedIn" class="link-icon">
+      LinkedIn
+    </a>
+    <a href="https://open.spotify.com/artist/5xKCFGP9IhzNyqvVn4bVZs" title="Spotify" class="link-icon">
+      Spotify
+    </a>  
+    <a href="https://t.me/kdnanmaga" title="Telegram" class="link-icon">
+      Telegram
+    </a>
+    <a href="https://twitter.com/kdnanmaga" title="Twitter" class="link-icon">
+      Twitter
+    </a>
+    <a href="https://unsplash.com/@kdnanmaga" title="Unsplash" class="link-icon">
+      Unsplash
+    </a>
+  </nav>
+</footer>
+</body>
+</html>
