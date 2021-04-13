@@ -1,14 +1,8 @@
 # kdnanmaga / Karthik D
-I write code, blogs and stories
+Bengaluru based freelance developer
 
-## Links
-- [GitHub](https://github.com/kdnanmaga)
-- [Google](https://google.com/search?q=kdnanmaga)
-- [Instagram](https://www.instagram.com/kdnanmaga/)
-- [itch.io](https://kdnanmaga.itch.io/)
-- [LinkedIn](https://www.linkedin.com/in/kdnanmaga/)
-- [Spotify](https://open.spotify.com/artist/5xKCFGP9IhzNyqvVn4bVZs)
-- [Telegram](https://t.me/kdnanmaga)
-- [Twitter](https://twitter.com/kdnanmaga)
-- [Unsplash](https://unsplash.com/@kdnanmaga)
-- [Website](https://kdnanmaga.xyz)
+## Stacks
+- Backend: Python (Flask, Django), NodeJS (Express, Hapi, Fastify), Elixir
+- Frontend: HTML, CSS, JS, VueJS, PWA, AMP
+- DB:  MongoDB, PostgresQL, MySQL
+- Devops: Linux, Google Cloud, DigitalOcean, AWS, NGINX, AWS Lambda
