@@ -1,0 +1,317 @@
+<!-- built by gen -->
+<!doctype html>
+<html lang="en" amp>
+<head>
+  <meta charset="utf-8">
+  <title>kdnanmaga / Karthik D</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#020203">
+  <meta name="description" content="Writes code, blogs and stories">
+  
+  <meta property="og:title" content="kdnanmaga / Karthik D" />
+  <meta property="og:url" content="https://kdnanmaga.xyz" />
+  <meta property="og:description" content="Writes code, blogs and stories">
+  <meta property="og:image" content="/assets/dp.png">
+  <meta property="og:type" content="website" />
+  
+  <meta name="twitter:card" content="app"></meta>
+  <meta property="twitter:image" content="/assets/cov.png">
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Hind&display=swap" rel="stylesheet">
+  <link rel="canonical" href="https://kdnanmaga.xyz">
+  <link rel="shortcut icon" type="image/png" href="/assets/favicon.png"/>
+  
+  <script async src="https://cdn.ampproject.org/v0.js"></script>
+  
+  <style amp-custom>
+    :root{
+      --d1: #020203;
+      --d2: #080a0c;
+      --d3: #101418;
+      --t1: #09321E;
+      --t2: #0D462A;
+      --t3: #13623B;
+      --t4: #2ACB7A;
+      --t5: #38D687;
+      --l2: #E1F9ED;
+      --l1: #FFFFFF;
+    }
+    * {
+      box-sizing: border-box;
+    }
+    html {
+      scroll-behavior: smooth;
+    }
+    /*@font-face {
+      font-family: font1;
+      src: url(/assets/jost.otf);
+    }*/
+    body {
+      font-family: 'Hind', sans-serif;
+      padding: 0px;
+      margin: 0px;
+      font-size: 1.25rem;
+      background: var(--d1);
+      color: var(--l1);
+      text-align: center;
+      min-height: 100vh;
+    }
+    h1,h3,p{
+      font-weight: 200;
+      margin: 0.5rem 0;
+    }
+    h2{margin: 0.5rem;}
+    .backdrop{
+      position: fixed;
+      z-index: -1000;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: url(/assets/bg_backdrop.png);
+      background-size: cover;
+      background-position: center top;
+    }
+    header{
+      display: grid;
+      grid-template-columns: auto 1fr;
+      grid-gap: 1rem;
+      padding: 1rem;
+      align-items: center;
+      justify-items: end;
+      font-family: 'Jost', sans-serif;
+    }
+    header a{
+      color: var(--l1);
+      text-decoration: none;
+      font-weight: bold;
+    }
+    h1{
+      margin: 0;
+      font-weight: bold;
+      color: var(--l1);
+      font-size: 125%;
+    }
+    h1::before{
+      content: "@";
+    }
+    header img, header amp-img{
+      height: 2.5rem;
+      width: auto;
+    }
+    .cover{
+      min-height: 50vh;
+      background: url(/assets/bg_face.png);
+      background-size: contain;
+      background-position: center bottom;
+      background-repeat: no-repeat;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+      justify-items: center;
+      font-family: 'Jost', sans-serif;
+    }
+    .cover h2{
+      font-size: 200%;
+      margin: 0; 
+    }
+    .cover h3{
+      margin: 0;
+    }
+    .first{ 
+      text-align: left;
+    }
+    .second{
+      display: grid;
+      grid-template-columns: repeat(10,0.75rem);
+      grid-gap: 1rem; 
+      align-items: center;
+    }
+    .second a{
+      grid-column: span 2;
+      text-decoration: none;
+    }
+    .second a img, .second a amp-img{
+      width: 32px;
+      height: auto;
+    }
+    .opaque{
+      background: var(--d1);
+      padding: 1rem;
+      padding-bottom: 3rem;
+    }
+    .single-row{
+      display: inline-block;
+      width: 100%;
+      max-width: 640px;
+      text-align: left;
+    }
+    .opaque h2, .opaque h3{
+      color: var(--t5);
+      font-weight: bold;
+      padding: 0;
+      font-size: 150%;
+      font-family: 'Jost', sans-serif;
+    }
+    .opaque h3:not(:first-child){
+      margin-top: 3rem;
+    }
+    .opaque nav a{
+      display: inline-block;
+      /*background: transparent;
+      background: -webkit-linear-gradient(bottom, var(--d2),var(--d3));
+      */background: var(--d3);
+      text-decoration: none;
+      color: var(--l1);
+      padding: 0.5rem 1rem;
+      border-radius: 100px;
+      border: 2px solid var(--d2);
+      font-family: 'Jost', sans-serif;
+    }
+    .single-row a{
+      display: block;
+      text-decoration: none;
+      color: var(--l2);
+      background: var(--d2);
+      padding: 0.5rem 1rem;
+      border-radius: 0.5rem;
+      border: 2px solid var(--d2);
+    }
+    .single-row a::before{
+      content: ">";
+      font-size: 120%;
+      color: var(--t5);
+    }
+    @media only screen and (max-width: 640px) {
+      .cover{
+        grid-template-columns: 1fr;
+      }
+      .first{ text-align: center; }
+    }
+    footer{
+      color: var(--l1);
+      margin: 0;
+      padding: 3rem 1rem;
+      font-family: 'Jost', sans-serif;
+    }
+    footer p{
+      margin: 0;
+    }
+    footer p a{
+      text-decoration: none;
+      display: inline-block;
+      padding: 0.5rem 1rem;
+      background: var(--d3);
+      color: var(--t5);
+      border-radius: 100px;
+      margin: 1rem 0;
+      border: 2px solid var(--d2);
+    }
+  </style>
+  <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+</head>
+<body>
+<div class="backdrop"></div>
+<header>
+  <a href="/" title="Home">
+    <amp-img src="/assets/logo.png" alt="Logo" layout="fixed" height="40" width="35"></amp-img>
+  </a>
+  <a href="mailto:krtdvn@gmail.com">krtdvn@gmail.com</a>
+</header>
+<main>
+  <section class="cover">
+    <div class="first">
+      <h1>kdnanmaga / Karthik D</h1>
+      <h3>
+        I write code, blogs & stories
+      </h3>
+    </div>
+    <div class="second">
+      <span></span>
+      <a href="https://github.com/kdnanmaga" title="Github" class="link-icon">
+        <amp-img src="/assets/github.svg" alt="github logo" layout="fixed-height" height="32"></amp-img>
+      </a>
+      <a href="https://google.com/search?q=kdnanmaga" title="Search" class="link-icon">
+        <amp-img src="/assets/search.svg" alt="search icon" layout="fixed-height" height="32"></amp-img>
+      </a>
+      <a href="https://instagram.com/kdnanmaga" title="Instagram" class="link-icon">
+        <amp-img src="/assets/instagram.svg" alt="instagram logo" layout="fixed-height" height="32"></amp-img>
+      </a>
+      <a href="https://kdnanmaga.itch.io/" title="Itch.io" class="link-icon">
+        <amp-img src="/assets/itchio.svg" alt="itch.io logo" layout="fixed-height" height="32"></amp-img>
+      </a>
+      <span></span>
+      
+      <span></span>
+      <span></span>
+      <a href="https://www.linkedin.com/in/kdnanmaga/" title="LinkedIn" class="link-icon">
+        <amp-img src="/assets/linkedin.svg" alt="linkedin logo" layout="fixed-height" height="32"></amp-img>
+      </a>
+      <a href="https://open.spotify.com/artist/5xKCFGP9IhzNyqvVn4bVZs" title="Spotify" class="link-icon">
+        <amp-img src="/assets/spotify.png" alt="spotify logo" layout="fixed-height" height="32"></amp-img>
+      </a>  
+      <a href="https://t.me/kdnanmaga" title="Telegram" class="link-icon">
+        <amp-img src="/assets/telegram.png" alt="telegram logo" layout="fixed-height" height="32"></amp-img>
+      </a>
+      <span></span>
+      <span></span>
+      
+      <span></span>
+      <span></span>
+      <span></span>
+      <a href="https://twitter.com/kdnanmaga" title="Twitter" class="link-icon">
+        <amp-img src="/assets/twitter.svg" alt="twitter logo" layout="fixed-height" height="32"></amp-img>
+      </a>
+      <a href="https://unsplash.com/@kdnanmaga" title="Unsplash" class="link-icon">
+        <amp-img src="/assets/unsplash.png" alt="unsplash logo" layout="fixed-height" height="32"></amp-img>
+      </a>
+      <span></span>
+      <span></span>
+      <span></span>
+      
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <a href="https://kdnanmaga.xyz" title="Website" class="link-icon">
+        <amp-img src="/assets/globe.svg" alt="website logo" layout="fixed-height" height="32"></amp-img>
+      </a>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      
+    </div>
+  </section>
+  <section class="opaque">
+    <nav>
+      <h2>Posts</h2>
+      <a href="#stories">Stories</a>
+      <a href="#blogs">Blogs</a>
+    </nav>
+    <br>
+    <div class="single-row">
+      <h3 id="stories">Stories</h3>
+<a href="/monkeys-and-the-banyan-tree">
+  Monkeys and the Banyan Tree
+</a>
+<h3 id="blogs">Dev & Design Blogs</h3>
+<a href="/how-to-load-a-large-json-file-into-elixir-ets-cache">
+  Loading a large json file into elixir's ETS (Erlang Term Storage) Cache using Jaxon
+</a>
+
+    </div>
+    <br>
+  </section>
+</main>
+<footer>
+  <p>
+    © 2021 <span class="prefix-at">kdnanmaga</span> / Karthik D
+    <br>
+    <a href="mailto:krtdvn@gmail.com">Email: krtdvn@gmail.com</a>
+  </p>
+</footer>
+</body>
+</html>
