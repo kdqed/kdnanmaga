@@ -24,7 +24,7 @@ So the guitar lay in the hot Chennai weather for a year and moved back to Bengal
 
 Based on the recommendation of another friend (who hasn't moved to the USA, but wants to move to an island for higher studies), I went to this famous musical store in Jayanagar. The guy told me: "It'll cost just as much to fix this as buying a new guitar, so fixing may not be worth it - unless you have *feelings* for the guitar." I did have *feelings* for the guitar and wanted to keep it, but may be it was time to get a new instrument - perhaps a banjo or a keyboard. So I thought I'll keep the guitar but with *no strings attached*: make it an art piece! 
 
-So I removed the strings by myself, and just before I was about to start dismantling it, I got curious, "How would a rubber band sound when used in the place of a string in a guitar?". I opened the refrigerator to find my grandma's rubber band collection - from all the food parcels that had come home since the beginning of time. Now I had an idea and a strong *feeling* to fix the guitar bypulling the neck back into place with rubber bands.
+So I removed the strings by myself, and just before I was about to start dismantling it, I got curious, "How would a rubber band sound when used in the place of a string in a guitar?". I opened the refrigerator to find my grandma's rubber band collection - from all the food parcels that had come home since the beginning of time. Now I had an idea and a strong *feeling* to fix the guitar by pulling the neck back into place with rubber bands.
 
 > ### Zen quote #2: 
 > When one attempts to go *no strings attached*, one almost always catches *feelings* and adds ~~rubber bands~~ *more strings* to fix the situation.
