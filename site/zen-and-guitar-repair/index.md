@@ -42,4 +42,4 @@ Well, now I finally started playing the guitar! Until I went down to the 6th fre
 **P.S.**: Zen needs new friends because most friends are moving out of the country for higher studies instead of listening to Zen teachings. Preferably ones who will not move out of the country. Find Zen on instagram: [@kdnanmaga](https://instagram.com/kdnanmaga).
 You can still move out, but Zen can only send cat memes on instagram then. 
 
-**P.P.S**: Even after all this, grandma still gets jugaad of the year award for keeping the rubber bands in the freezer, so they don't melt and fuse together.
+**P.P.S**: Jugaad of the year award goes to: ~~kd for fixing his guitar~~ grandma for keeping the rubber bands in the freezer, so they don't melt and fuse together.
