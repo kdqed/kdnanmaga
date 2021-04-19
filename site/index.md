@@ -1,7 +1,10 @@
 ---
 template: index.html
 ---
-<h3 id="stories">Stories</h3>
+<h3 id="memoirs">Memoirs</h3>
+<a href="/zen-and-guitar-repair">
+  Zen and the Art of Guitar Repair - An inquiry into Jugaad
+</a>
 <a href="/monkeys-and-the-banyan-tree">
   Monkeys and the Banyan Tree
 </a>
