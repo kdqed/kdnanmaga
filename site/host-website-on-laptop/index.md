@@ -84,5 +84,5 @@ $ sudo add-apt-repository ppa:certbot/certbot
 $ sudo apt install python-certbot-nginx
 $ sudo certbot --nginx -d <your domain name>
 ```
-With the command in Step 3 still running, you should be able to access your local machine via the domain name now! 
+With the commands in Step 2 and Step 3 still running, you should be able to access your local machine via the domain name now! 
 
