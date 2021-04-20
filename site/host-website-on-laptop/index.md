@@ -78,7 +78,7 @@ server{
 
 Step 5: Make sure DNS for the domain name you used above has an A record poiting to your server IP
 
-Step 6: Install SSL certificate using let's encrypt so you can access via https://
+Step 6: Install SSL certificate using Let's Encrypt so you can access via https://
 ```
 $ sudo add-apt-repository ppa:certbot/certbot
 $ sudo apt install python-certbot-nginx
