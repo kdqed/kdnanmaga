@@ -11,7 +11,7 @@ template: index.html
 
 <h3 id="notes">Dev/Design Notes</h3>
 <a href="/last-name-and-credit-card">
-  Dear US companies, stop asking me for my last name and credit card
+  Dear "international" companies, stop asking me for my last name and credit card
 </a>
 <a href="/host-website-on-laptop">
   Hosting a website / webserver on your PC / Laptop using Reverse SSH Tunnel on a custom domain name
