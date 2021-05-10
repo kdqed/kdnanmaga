@@ -1,7 +1,7 @@
 ---
 template: index.html
 ---
-<h3 id="memoirs">Memoirs</h3>
+<h3 id="blogs">Blogs</h3>
 <a href="/zen-and-guitar-repair">
   Zen and the Art of Guitar Repair - An inquiry into Jugaad
 </a>
@@ -9,7 +9,10 @@ template: index.html
   Monkeys and the Banyan Tree
 </a>
 
-<h3 id="blogs">Dev & Design Blogs</h3>
+<h3 id="notes">Dev/Design Notes</h3>
+<a href="/last-name-and-credit-card">
+  Dear US companies, stop asking me for my last name and credit card
+</a>
 <a href="/host-website-on-laptop">
   Hosting a website / webserver on your PC / Laptop using Reverse SSH Tunnel on a custom domain name
 </a>
