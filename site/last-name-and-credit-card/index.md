@@ -29,7 +29,7 @@ The point is, for most use cases, the name of the user is not at all relevant to
 
 ## 2. Credit card eh? What's that?
 
-My next rant is about credit card payments being the only option on plenty of international services, which are actually trying to expand in the Indian market. This includes cloud services providers such as DigitalOcean, AWS, Google Cloud etc, and host of entertainment services such as Netflix, YouTube Premium, MUBI etc.
+My next rant is about credit card payments being the only option on plenty of international services, which are actually trying to expand in the Indian market. This includes cloud services providers such as DigitalOcean, AWS, Google Cloud etc, and a host of entertainment services such as Netflix, YouTube Premium, MUBI etc.
 
 Firstly, not everyone is eligible for a credit card. In India, credit cards are used by a very privileged few who are eligible for it, while most of the population struggles to use a debit card despite having one. As of today, [UPI](https://www.npci.org.in/what-we-do/upi/product-overview) is the most user friendly payment option available here. 
 
