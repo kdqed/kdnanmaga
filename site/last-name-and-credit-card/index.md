@@ -21,7 +21,7 @@ My official name is Karthik D, and the D actually stands for my dad's name and i
 My intention is not to put up my family history on a design blog, but the problem is, I cannot offer the above explanation when I land on a sign-up form and the last name field is mandatory. Mostly I get away with entering "Karthik" for first name and "D" for last name, but some notorious sites complain the last name is too short. WTF! I then have to enter my last name as "Devan" which is my dad's name, and then voila! The site starts addressing me as Mr. Devan. That's not me, that's my dad, you #$^#s! 
 
 To make my point with more examples: 
-- Family Name comes before the given name is some countries (eg: Japan, Korea, Romania)
+- Family Name comes before the given name is some countries (eg: Japan, Korea, Hungary)
 - In Spain, people have a first name followed by two surnames - one from each parent.
 - In India (mind you, this is where things go haywire), there is no dominant naming pattern at all: a person can have anywhere between zero to 8 names or even more. This may include one or more given names, parents' names, family names, place names, caste names, occupation names, nick names and not even to mention a plethora of honorifics like Mr., Shri., Thiru. that change from language to language which people may want to enter in the name field. We have a "Farokh Engineer" who is actually a sportsperson. I have also given my example above as a case to illustrate that naming pattern is not consistent even within a family.
 
